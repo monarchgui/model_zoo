@@ -8,12 +8,12 @@
     "DATA":{
        "FEAT_TRAIN":{
          "read_type": "remote",
-         "table_name": "ads_manga_eoe_training_data_di",
+         "table_name": "ads_manga_eoe_training_di",
          "suffix": "dt"
        },
        "FEAT_TEST":{
          "read_type": "remote",
-          "table_name": "ads_manga_eoe_testing_data_di",
+          "table_name": "ads_manga_eoe_testing_di",
           "suffix": "dt"
        },
       "FEAT_PREDICT":{
@@ -36,7 +36,7 @@
     "val_batch_size": 1024,
     "repeat": 20,
     "val_step": 300,
-    "learning_rate": 0.01,
+    "learning_rate": 0.1,
     "l1_strength": 0.1,
     "l2_strength": 0.5,
     "prefetch_size":10,
