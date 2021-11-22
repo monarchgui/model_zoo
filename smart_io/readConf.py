@@ -14,7 +14,7 @@ from util.utils import *
 
 def resolveJson(path):
     column_dict = configparser.ConfigParser()
-    column_dict.read('conf/columns_3.ini')
+    column_dict.read('conf/columns_eoe.ini')
 
     print(column_dict)
 
