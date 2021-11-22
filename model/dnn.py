@@ -89,7 +89,7 @@ def DNN(features, labels, mode, params):
     assert mode == tf.estimator.ModeKeys.TRAIN
 
     lr =tf.compat.v1.train.exponential_decay(
-            learning_rate=0.01,
+            learning_rate=0.1,
             global_step=tf.compat.v1.train.get_global_step(),
             decay_steps=5000,
             decay_rate=0.96,staircase=False)
